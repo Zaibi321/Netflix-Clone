@@ -1,0 +1,259 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+.main{
+    background-image: url(assets/images/background.jpg);
+    height: 717px;
+}
+.main .box{
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    height: 777px;
+    position: absolute;
+    top: 0%;
+}
+nav{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+
+}
+.nav-logo #nav-logo-netflix{
+    width: 150px;
+    color: red;
+    position: relative;
+    left: 5cm;
+    z-index: 9;
+}
+.nav-buttons .sign{
+    margin-right: 10px;
+    width: 85px;
+    height: 35px;
+    position: relative;
+    right: 4cm;
+    background-color: red;
+    z-index: 9;
+    font-size: 16px;
+    border: 0px solid transparent;
+    border-radius: 6px;
+}
+.hero{
+    height: 238px;
+    width: 1019;
+    position: relative;
+    top: 5cm;
+    font-family: sans-serif;
+}
+.hero .hero-intro{
+   
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    z-index: 19;
+}
+.hero-intro #hero-intro1{
+    font-size: 45px;
+    font-weight: bolder;
+
+}
+.hero-intro p{
+    font-size: 25px;
+    margin-top: 13px;
+    font-weight: 300;
+    z-index: 10;
+}
+.hero-intro pre{
+    font-size: 25px;
+    margin-top: 13px;
+    z-index: 10;
+    font-weight: 300;
+    font-family: sans-serif;
+    
+}
+
+.hero .input{
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+.input .email{
+    height:56px ;
+    width: 370px;
+    margin-right: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.486);
+    border-radius: 6px;
+    color: #ffff;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.349);
+    padding-left: 5px;
+    z-index: 5;
+}
+.input #get{
+    height:56px ;
+    width: 206px;
+    background-color: red;
+    z-index: 10;
+    font-size: 23px;
+    border-radius: 6px;
+
+}
+
+.tv-section{
+    height:529px;
+    width: 100%;
+    background-color: black;
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+.tv-section .tv-section-intro{
+    padding-top: 4cm;
+    padding-left: 4cm;
+    
+}
+.tv-section-intro h2{
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 800;
+    display: inline;
+}
+.tv-section-intro p{
+    margin-top: 15px;
+    width: 480px;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+  .tv-section-img{
+
+
+} 
+.tv-section-img  img{
+    height: 341px;
+    width: 470px;
+    position: relative;
+    bottom: 3cm;
+}
+.tv-section-img video{
+    position: relative;
+    top: 3.9cm;
+    left: 1.7cm;
+    height: 190px;
+}
+.download-section{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    border-top: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download-section img{
+    height: 400px;
+    padding-left:1cm ;
+}
+.download-section .download-text{
+    width: 510px;
+    height: 300px;
+}
+.download-text h2{
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.download-text p{
+    font-size:24px ;
+    font-family: sans-serif;
+    padding-top: 10px;
+
+}
+.kids-section{
+    height:530px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top: 2px solid white;
+}
+.kids-section-img img{
+    height: 381px;
+}
+.kids-section .kids-text{
+    width: 514px;
+}
+.kids-text h2{
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.kids-section p{
+    font-size:24px ;
+    font-family: sans-serif;
+    padding-top: 10px;
+
+}
+.question-section{
+    height:900px ;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top:2px solid white;
+    border-bottom: 2px solid pink;
+}
+.question-section h2{
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 800;
+
+}
+.questions-box{
+    height: 550px;
+    width: 1030px;
+    padding-top: 29px;
+} 
+.questions-box .box {
+    height: 84px;
+    width: 1030px;
+    background-color: rgb(63, 57, 57);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.box a{
+    text-decoration: none;
+    font-size: 26px;
+   font-family: sans-serif;
+    padding-left: 1cm;
+
+}
+
+footer{
+    background-color: black;
+    border-top: 3px solid white;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2cm;
+    margin-top: 1cm;
+}
+.foot a{
+    font-size: 18px;
+    color: rgba(68, 64, 64 1);
+    padding-top: 19px;
+    display: block;
+    font-family: sans-serif;
+
+}
